@@ -1,0 +1,14 @@
+modified: 0
+services:
+- build: "npm install"
+  errors: []
+  image:
+    repository: "node"
+    tag: "7.7.4-alpine"
+  includeRepositoryContent: true
+  name: "node"
+  performBuild: true
+  ports:
+  - "3000"
+  properties: []
+  run: "npm start"
