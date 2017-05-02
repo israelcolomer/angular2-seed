@@ -4,7 +4,7 @@ services:
   errors: []
   image:
     repository: "node"
-    tag: "7.7.4-alpine"
+    tag: "6.10.1-alpine"
   includeRepositoryContent: true
   name: "node"
   performBuild: true
